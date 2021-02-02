@@ -1,0 +1,4 @@
+name: jsonnet-gitpusher
+image: docker.io/kingdonb/jsonnet-gitpusher:dependencies
+command: [ "bash", "--login" ]
+workdir: /home/linuxbrew/deploy
